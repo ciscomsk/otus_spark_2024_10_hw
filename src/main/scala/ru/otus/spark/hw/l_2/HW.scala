@@ -5,7 +5,7 @@ import ru.otus.spark.hw.l_2.Functions._
 object HW extends App {
   greet()
   println(sum(5, 10))
-  println(List(1, 2, 3, 4, 5).map(_ + 1))
+  println(List(1, 2, 3, 4, 5).map(_ + 1)) // 1.to(5): _*
   oddOrEven()
   println(getLength("some text"))
   println(concatenateStrings(Seq("some", "text")))
