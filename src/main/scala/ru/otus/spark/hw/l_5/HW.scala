@@ -14,7 +14,7 @@ object HW extends App {
   println(sum(10, 15))
   println(getAgeCategory(age))
 
-  val range: Range.Inclusive = 1 to 10
+  val range: Range.Inclusive = 1 to 10 // = Range.inclusive(1, 10)
   range.foreach(num => print(s"$num "))
   println()
 
